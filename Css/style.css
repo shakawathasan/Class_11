@@ -1,0 +1,276 @@
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Abril Fatface',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+p{
+    font-family:'Open Sans', sans-serif; 
+    font-weight: 400;
+  }
+  .align-iteam{
+  align-items: center;
+  }
+  /* common css end */
+  
+  /* header css start */
+  header{
+   background: #0f2f44;
+   padding: 20px 0px; 
+   color:white;
+  }
+  header .wellcome, header .opening{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 19px 0;
+  }
+  /* header css end */
+  
+  /* navigation css start */
+  nav{
+  background-color: white;
+  }
+  nav .menu ul{
+    text-align: right;
+  }
+  nav .menu ul li {
+  display: inline-block;
+  
+  }
+  nav .logo{
+    width: 25%;
+  }
+  nav .menu{
+    width: 70%;
+  }
+  nav .menu ul li a{
+  font-size: 16px;
+  font-weight:500;
+  color:#000000;
+  padding: 40px 20px;
+  font-family:'Ubuntu', sans-serif;
+  display: block;
+  transition: .5s;
+  }
+  nav .menu ul li:hover a{
+    background: #fff9e6;
+    color: #ffc712;
+  }
+  nav .menu ul li span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #888;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  /* navigation css end */
+  
+  /* success css start */
+  #success{
+    background-image:url(../img/Bizzency\ bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    padding: 140px 0px;
+  }
+  #success h1{
+    font-family:'Ubuntu'sans-serif; 
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+    letter-spacing: 5px;
+  }
+  #success h1 strong{
+    font-family:'Abril Fatface';
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0f2f44;
+    display: block;
+  }
+  #success h3{
+    font-family:'Ubuntu'sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 20px;
+    margin-top: 5px;
+  }
+  #success p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #444444;
+    margin: 20px 0px 33px;
+  }
+  #success a{
+    font-family:'Ubuntu'sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff9e6;
+    background-color: #8484bf;
+    padding: 16px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .6s;
+  }
+  #success a:hover{
+    background-color:#fff9e6;
+    color: #8484bf;
+  }
+  #success span{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#8484bf;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+  /* success css end */
+  
+  /* about css start */
+  #about{
+    padding: 100px 0px;
+  }
+  #about .about-info{
+  color: #0f2f44;
+  width: 50%;
+  }
+  #about .about-info h5{
+  font-size: 17px;
+  font-family: 'Ubuntu'sans-serif;
+  font-weight:300;
+  }
+  #about .about-info h3{
+    font-size: 32px;
+    font-family:'Abril Fatface';
+    font-weight: 400;
+    margin-bottom: 31px;
+  }
+  #about .about-info p{
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  #about .about-info ul{
+    margin-left: 30px;
+  }
+  #about .about-info ul li{
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px 0px;
+  }
+  #about .about-info a{
+    font-size: 20px;
+    font-family:'Ubuntu'sans-serif;
+    font-weight:500px;
+    padding: 15px 19px;
+    margin-top: 34px;
+    color: #0f2f44;
+    background: #ffc712;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: .6s;
+  }
+  #about .about-info a:hover{
+    background-color:#0f2f44;
+    color:#ffc712;
+  }
+  #about .about-info a:last-child{
+    background: #fff;
+    color: #0f2f44;
+    border: 3px solid #ebebeb;
+  }
+  /* about css end */
+  
+
+/* our_skills css start */
+#skills .skills_img{
+    width: 60%;
+}
+#skills .skills_text{
+    width: 40%;
+    text-align: right;
+}
+.skills_text h5{
+    color: #0f2f44;
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 16px;
+    font-weight: 300;
+}
+.skills_text h2{
+    color: #0f2f44;
+    font-family:'Abril Fatface',sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+.skills_text p{
+  color: #0f2f44;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 28px 0px;
+}
+/* our_skills css end */
+
+/* service css start */
+#service{
+  background: #fff;
+  padding-bottom: 60px;
+}
+#service .service-info{
+  padding: 60px 0px;
+}
+#service .service-info h5{
+  font-family:'Ubuntu'sans-serif;
+  font-size: 14px;
+  font-weight:300;
+  color: #0f2f44;
+  text-align: center;
+}
+#service .service-info h3{
+  font-family:'Abril Fatface',sans-serif;
+  font-size: 32px;
+  font-weight:400;
+  color: #0f2f44;
+  text-align: center;
+}
+#service .iteam_1{
+  width: 30%;
+  margin: 0px 15px;
+}
+
+
